@@ -25,3 +25,8 @@ Example app listening on port 4000
 ```
 $ npm run test
 ```
+
+- You has a build scss to css (watch all)
+```
+$ npm run build
+```
