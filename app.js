@@ -41,5 +41,5 @@ app.listen(process.env.START_SERVER || 4000, () =>
 
 // Route Error 404
 app.get('*', function (req, res) {
-	res.send('Error 404', 404);
+	res.render('notFound/index');
 });
