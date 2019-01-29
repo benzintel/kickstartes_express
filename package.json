@@ -6,8 +6,12 @@
   "dependencies": {
     "assert": "^1.4.1",
     "chai": "^4.1.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
     "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
+    "express-session": "^1.15.6",
     "request": "^2.88.0"
   },
   "devDependencies": {
@@ -18,7 +22,7 @@
     "nodemon": "^1.18.4"
   },
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "nodemon app.js",
     "test": "mocha src/test/test.js"
   },
   "author": "benzintel",
