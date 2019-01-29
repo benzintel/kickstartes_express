@@ -13,6 +13,7 @@ x.x.x
 
 - cd /users/kickstartes_express
 ```sh
+$ npm install gulp@3.9.1 -g
 $ npm install
 ```
 - install all packet on npm
