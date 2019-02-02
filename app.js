@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 
 // Add env
-require('dotenv').config()
+require('dotenv').config();
 
 // parse cookies
 // we need this because "cookie" is true in csrfProtection

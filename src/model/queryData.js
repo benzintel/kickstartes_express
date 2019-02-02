@@ -9,11 +9,11 @@ class queryData {
       const result = knex.raw(sqlString).then(result => {
         return result;
       });
+
+      return result;
     } catch (err) {
       return err;
     }
-
-    return result;
   }
 
 }
