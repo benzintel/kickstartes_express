@@ -2,6 +2,7 @@
 # Start NodeJS
 
   - install NodeJS >= 8 [Download: https://nodejs.org/en/]
+  - install nodemon
   - New terminal 
   - check node and npm
 ```sh
@@ -9,6 +10,7 @@ $ node -v
 v.8.xx.x
 $ npm -v
 x.x.x
+$ npm install -g nodemon
 ```
 
 - cd /users/kickstartes_express
